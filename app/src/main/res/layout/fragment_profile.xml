@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".employer.fragement.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/emp_profile_pic"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/image_24"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+                <TextView
+                    android:id="@+id/emp_profile_username"
+                    android:textAlignment="center"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/emp_profile_fullname"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/emp_profile_nid"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <TextView
+                    android:id="@+id/emp_profile_mobile"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/emp_profile_address"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/emp_profile_zipcode"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <!--                <TextView-->
+                <!--                    android:id="@+id/wrk_profile_zipcode1"-->
+                <!--                    android:textSize="18sp"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"/>-->
+                <!--                <View-->
+                <!--                    android:layout_marginTop="15dp"-->
+                <!--                    android:layout_marginBottom="15dp"-->
+                <!--                    android:background="@color/black"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="2dp"/>-->
+                <!--                <TextView-->
+                <!--                    android:id="@+id/wrk_profile_zipcode2"-->
+                <!--                    android:textSize="18sp"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"/>-->
+
+
+                <Button
+                    android:id="@+id/logoutbtn"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/white"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Logout"
+                    android:backgroundTint="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

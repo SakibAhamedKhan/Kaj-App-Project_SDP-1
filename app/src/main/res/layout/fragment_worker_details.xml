@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:scrollbars="none"
+    tools:context=".employer.WorkerDetailsFragment">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/emp_profile_pic"
+                android:src="@drawable/image_24"
+                android:layout_gravity="center"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/userename"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="28sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <TextView
+                    android:id="@+id/workertype"
+                    android:textSize="18sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <TextView
+                    android:id="@+id/fullname"
+                    android:textSize="18sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <TextView
+                    android:id="@+id/address"
+                    android:textSize="18sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:textSize="18sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <TextView
+                    android:id="@+id/prize"
+                    android:textSize="18sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:id="@+id/order_duration_text"
+                        android:textSize="25sp"
+                        android:text="Duration: "
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/btn_minus"
+                        android:drawableTop="@drawable/minus"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/order_duration_text"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="140dp"
+                        android:backgroundTint="#EBE4E4"
+                        android:paddingBottom="3dp"
+                        android:textColor="@color/black"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/orderday_show_onchange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_below="@+id/order_duration_text"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="75dp"
+                        android:layout_marginRight="20dp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <Button
+                        android:layout_below="@+id/order_duration_text"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/btn_plus"
+                        android:drawableTop="@drawable/plus"
+                        android:layout_marginRight="20dp"
+                        android:backgroundTint="#EBE4E4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/logBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/total_salary"
+                    android:textSize="22sp"
+                    android:text=""
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:id="@+id/Order"
+                android:text="Order"
+                android:layout_marginBottom="100dp"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#13DB3E"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/for_total"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:id="@+id/scrollViewLogin"
+    android:background="@color/logBackground"
+    android:scrollbars="none"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageViewLogin"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_width="130dp"
+            android:layout_height="130dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Welcome to KAJ"
+            android:textAlignment="center"
+            android:textColor="@color/TextHeader"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Login to Continue"
+            android:textColor="@color/TextHeader"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<!--            // email enter design-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emaillogin_text_field_design"
+                style="@style/TextInputLayoutStyle"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                app:errorTextColor="@color/warning"
+                android:hint="Email"
+                android:textColorHint="@color/white"
+                app:backgroundTint="@color/white"
+                app:hintTextColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailloginedt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:inputType="textEmailAddress"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+<!--            //password enter design-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordlogin_text_field_design"
+                style="@style/TextInputLayoutStyle"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                app:errorTextColor="@color/warning"
+                android:hint="Password"
+                android:textColorHint="@color/white"
+                app:hintTextColor="@color/white"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:shadowColor="#AC9A9A"
+                    android:textColor="@color/white"
+                    android:id="@+id/paswordlogin"
+                    android:textColorHighlight="#DEC8C8" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:text="Forget Password"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="@color/black"
+            android:text="Login"
+            android:layout_marginTop="5dp"
+            android:elevation="5dp"
+            />
+
+        <Button
+            android:id="@+id/gosignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textColor="@color/white"
+            android:text="Signup"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+
+
+
+</ScrollView>

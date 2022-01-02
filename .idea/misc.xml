@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/drawable/emp_home_24.xml" value="0.346782431052094" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/drawable/emp_order_24.xml" value="0.346782431052094" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/drawable/people.xml" value="0.22708333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/drawable/wrk_home_24.xml" value="0.27708333333333335" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/drawable/wrk_notifications_none_24.xml" value="0.27708333333333335" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/activity_dashboard.xml" value="0.16145307769929365" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/activity_employer_dash.xml" value="0.2630208333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/activity_singup.xml" value="0.302536231884058" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/activity_splashscreen.xml" value="0.22604166666666667" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/activity_worker.xml" value="0.31354166666666666" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/activity_worker_type.xml" value="0.3333333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/employer_dash.xml" value="0.33" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_done.xml" value="0.3333333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_home2.xml" value="0.20244565217391305" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_katmistri.xml" value="0.31302083333333336" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_notification.xml" value="0.25677083333333334" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_order.xml" value="0.3283514492753623" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_order2.xml" value="0.25677083333333334" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_order__payment_.xml" value="0.3333333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_order_request_details.xml" value="0.2833333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_profile2.xml" value="0.23854166666666668" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_rajmistri.xml" value="0.31354166666666666" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_search.xml" value="0.3333333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_worker_details.xml" value="0.2" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_worker_details2.xml" value="0.3333333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/fragment_wrk__rajmistri.xml" value="0.3333333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/list_of_order_progress_in_emp.xml" value="0.2677083333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/list_of_order_progress_in_wrk.xml" value="0.3333333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/list_of_ordertoworker_from_emp.xml" value="0.33" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/list_of_worker_item.xml" value="0.25" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/loading.xml" value="0.16168478260869565" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/login.xml" value="0.33" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/signup.xml" value="0.33" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/signup_dropdown_account_type.xml" value="0.22083333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/splashscreen.xml" value="0.22" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/worker_dash.xml" value="0.2630208333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/layout/worker_type.xml" value="0.3333333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/menu/emp_menu_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/Sakib_Project/Android_Dev/KajAppDemo/app/src/main/res/menu/wrk_menu_list.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

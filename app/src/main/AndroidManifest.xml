@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kajappdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="KAJ"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KajAppDemo">
+        <activity
+            android:name=".WorkerType"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen.Splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".splashscreen.Loading"
+            android:exported="false" />
+        <activity
+            android:name=".worker.WorkerDash"
+            android:exported="false" />
+        <activity
+            android:name=".employer.EmployerDash"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/emp_Home"
+        android:title="Home"
+        android:icon="@drawable/emp_home_24"/>
+    <item
+        android:id="@+id/emp_Order"
+        android:title="Order"
+        android:icon="@drawable/emp_order_24"/>
+<!--    <item-->
+<!--        android:id="@+id/emp_Search"-->
+<!--        android:title="Search"-->
+<!--        android:icon="@drawable/emp_search_24"/>-->
+    <item
+        android:id="@+id/emp_Profile"
+        android:title="Profile"
+        android:icon="@drawable/emp_person_outline_24"/>
+</menu>

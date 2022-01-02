@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".worker.fragement.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/rajmistibtn"
+                android:text="Raj Mistri"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:fontFamily="@font/baloo"
+                android:textSize="30sp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/katmistribtn"
+                android:text="Kat Mistri"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:fontFamily="@font/baloo"
+                android:textSize="30sp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#13DB3E"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/methorbtn"
+                android:text="Methor"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:fontFamily="@font/baloo"
+                android:textSize="30sp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EC126D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/bowabtn"
+                android:text="Bowa"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:fontFamily="@font/baloo"
+                android:textSize="30sp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#12C8EC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/electricmistribtn"
+                android:text="Electric Mistri"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:fontFamily="@font/baloo"
+                android:textSize="30sp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#ECAB12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/fittingsmistribtn"
+                android:text="Fittings Mistri"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:fontFamily="@font/baloo"
+                android:textSize="30sp"
+                android:layout_marginBottom="60dp"
+                android:backgroundTint="#C012EC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

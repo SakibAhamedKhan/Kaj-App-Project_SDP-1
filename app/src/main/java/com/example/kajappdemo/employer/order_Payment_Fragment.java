@@ -100,7 +100,7 @@ public class order_Payment_Fragment extends Fragment {
             databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
-                    workertype.setText("Work Type: "+snapshot.child("accounttype").getValue(String.class));
+                    workertype.setText("Work Type: "+snapshot.child("workertype").getValue(String.class));
                     phoneNumber.setText("Phone Number: "+snapshot.child("phonenumber").getValue(String.class));
 
                     DatabaseReference databaseReference1 = FirebaseDatabase.getInstance().getReference("user/"+user+"/orderreq/"+EmployerDash.username);

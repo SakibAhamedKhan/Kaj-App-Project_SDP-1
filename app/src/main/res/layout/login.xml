@@ -97,21 +97,13 @@
         </LinearLayout>
 
         <Button
-            android:layout_width="161dp"
-            android:layout_height="wrap_content"
-            android:background="@color/transparent"
-            android:text="Forget Password"
-            android:layout_marginTop="5dp"
-            android:textSize="12dp"
-            />
-        <Button
             android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
             android:textColor="@color/black"
             android:text="Login"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:elevation="5dp"
             />
 
